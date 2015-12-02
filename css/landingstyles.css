@@ -1,0 +1,68 @@
+.landingBody {
+background: black;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+
+h2 {
+  font-size: 16px;
+  line-height: 2;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+p {
+color: white;
+}
+
+img {
+  float: left;
+  margin-right: 25px;
+}
+
+.textblock {
+float: left;
+display: inline;
+width: 60%;
+}
+
+.thumb {
+display: inline-block;
+float: clear;
+margin-bottom: 50px;
+width: 100%;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hover {
+  color: red;
+}

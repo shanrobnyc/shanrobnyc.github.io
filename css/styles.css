@@ -1,0 +1,399 @@
+
+#arrow span {
+    display: inline-block;
+    position: relative;
+    top: -18px;
+    -moz-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -o-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+    -webkit-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+    transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+}
+#arrow:hover {
+    background: #000;
+}
+#arrow:hover span {
+    top: 0;
+    color: #FFF;
+}
+
+.backgroundtitle {
+  background: url("../images/08sudan-slide-3T40-original.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#hanabackgroundtitle {
+  background: url("../images/LebanonNYDC454849CA.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+
+#olegBackgroundTitle {
+  background: url("../images/UkraineNYDC455859CA.jpg") center center no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+#textFrame1, #textFrame2, #textFrame3, #textFrame4, #textFrame5, #textFrame6 {
+  background-color: black; center top;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#bottomNav {
+  background-color: black; center top;
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+}
+
+
+#csecondPhoto {
+  background: url("../images/sudanNYDC456667CA.jpg") center center no-repeat;
+}
+
+#cthirdPhoto {
+  background: url("../images/sudanNYDC4568CA.jpg") center center no-repeat;
+}
+
+
+#cfourthPhoto {
+  background: url("../images/sudanNYDC457273CA.jpg") center center no-repeat;
+}
+
+#cfifthPhoto {
+  background: url("../images/sudanNYDC457071CA.jpg") center center no-repeat;
+}
+
+#csixthPhoto {
+  background: url("../images/sudanNYDC4569CA.jpg") center center no-repeat;
+}
+
+
+#hfirstPhoto {
+  background: url("../images/LebanonNYDC454849CA.jpg") center center no-repeat;
+}
+
+#hsecondPhoto {
+  background: url("../images/LebanonNYDC455455CA.jpg") center center no-repeat;
+}
+
+#hthirdPhoto {
+  background: url("../images/LebanonNYDC455051CA.jpg") center center no-repeat;
+}
+
+
+#hfourthPhoto {
+  background: url("../images/LebanonNYDC4552CA.jpg") center center no-repeat;
+}
+
+#hsixthPhoto {
+  background: url("../images/LebanonNYDC455657CA.jpg") center center no-repeat;
+}
+
+#hfifthPhoto {
+  background: url("../images/LebanonNYDC4553CA.jpg") center center no-repeat;
+}
+
+#ofirstPhoto {
+  background: url("../images/LebanonNYDC454849CA.jpg") center center no-repeat;
+}
+
+#osecondPhoto {
+  background: url("../images/UkraineNYDC4560CA.jpg") center center no-repeat;
+}
+
+#othirdPhoto {
+  background: url("../images/UkraineNYDC4561CA.jpg") center center no-repeat;
+}
+
+
+
+
+
+
+
+#ofourthPhoto {
+  background: url("../images/Ukraine_web01.tif") center center no-repeat;
+}
+
+#osixthPhoto {
+  background: url("../images/Ukraine1UKRAINE_5387.jpg") center center no-repeat;
+}
+
+#ofifthoPhoto {
+  background: url("../images/Ukraine_web02.tif") center center no-repeat;
+}
+
+
+#oseventhPhoto {
+  background: url("../images/Ukraine1UKRAINE_0007.jpg") center center no-repeat;
+}
+
+.photo {
+  background-size: cover;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+
+p {
+  color: white;
+  font-size: 24px;
+  width: 50%;
+  line-height: 2.5;
+  padding-top: 50px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.firstGraph {
+  padding-top: 150px;
+}
+
+
+#titleType {
+  padding-top: 5%;
+  padding-left: 10%;
+}
+
+#titleTypeHana {
+  padding-top: 15%;
+  padding-left: 5%;
+
+}
+
+h1, h2, h3, h4 {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: .5%;
+  font-weight: 500;
+}
+
+
+h2 {
+  font-size: 24px;
+  margin-top: 0;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  width: 20%;
+  margin-top: 5%;
+  margin-left: 10%;
+  line-height: 2;
+}
+
+.blackTypeRight {
+  float: right;
+  font-size: 18px;
+  font-weight: 500;
+  width: 25%;
+  margin-right: 10%;
+  margin-left: 0;
+  color: black;
+}
+
+.whiteTypeLeft {
+  float: right;
+  font-size: 18px;
+  font-weight: 500;
+  width: 35%;
+  margin-right: 10%;
+  margin-left: 0;
+}
+
+.whiteHanaTypeLeft {
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+  width: 35%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 20em;
+  color: white;
+}
+
+.whiteHanaTypeLeftBus {
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+  width: 24%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 25em;
+  color: white;
+}
+
+.blackTypeLeft {
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+  width: 35%;
+  margin-left: 6%;
+  margin-right: 0;
+  color: black;
+}
+
+.whiteTypeBottomLeft {
+  float: left;
+  font-size: 18px;
+  font-weight: 500;
+  width: 35%;
+  margin-right: 10%;
+  margin-left: 10;
+  margin-top: 80%;
+  color: white;
+}
+
+
+.navtext {
+  color: white;
+  font-size: 20px;
+  width: 50%;
+  padding-top: 80px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 10%;
+}
+
+.navh3 {
+ line-height: .5;
+}
+
+a {
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 400;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+.navh1 {
+ margin-bottom: 5%;
+}
+
+.ad {
+    margin: auto;
+    width: 80%;
+}
+
+
+
+@media only screen and (max-width: 600px){
+p {
+  width: 85%;
+  font-size: 18px;
+  line-height: 2.5;
+  }
+}
+
+@media only screen and (max-width: 600px){
+h4 {
+  font-size: 18px;
+  font-weight: 500;
+  width: 65%;
+  margin-top: 5%;
+  margin-left: 5%;
+  line-height: 2;
+  }
+}
+
+@media only screen and (max-width: 600px){
+.blackTypeRight {
+  float: right;
+  font-size: 18px;
+  font-weight: 500;
+  width: 45%;
+  margin-right: 5%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+.whiteTypeLeft {
+  font-size: 18px;
+  font-weight: 500;
+  width: 65%;
+  margin-right: 5%;
+  }
+}
+@media only screen and (max-width: 600px){
+.banner {
+  width: 100%;
+  max-width: 100%;
+  background-size: cover;
+  }
+}
+
+@media only screen and (max-width: 600px){
+footer {
+  font-size: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px){
+h1 {
+  font-size: 32px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+h2, h3 {
+  font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+#titleType {
+  padding-top: 5%;
+  width: 80%;
+  margin: 0 auto;
+  padding-left: 0%;
+
+  }
+}
+
+@media only screen and (max-width: 600px){
+.firstGraph {
+  padding-top: 10%;
+}
+
+@media only screen and (max-width: 600px){
+.navh3 {
+  line-height: 1;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+.navtext {
+  font-size: 16px;
+  width: 80%;
+  }
+}
+
+
