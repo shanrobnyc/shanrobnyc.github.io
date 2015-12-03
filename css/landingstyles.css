@@ -1,5 +1,9 @@
 .landingBody {
-background: black;
+  background: black;
+}
+
+.landingPageIntro {
+  clear: both;
 }
 
 #introimage {
@@ -15,7 +19,6 @@ h1, h2, h3, h4, h5, h6, p {
   color: #c3BDBD;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-
 }
 
 h1 {
@@ -45,6 +48,16 @@ h4, h5 {
   line-height: 1.4;
 }
 
+h6 {
+  font-weight: 500;
+  font-size: 14px;
+  display: block;
+  float: right;
+  margin-top: 6px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
 a {
   display: block;
   text-decoration: none;
@@ -54,7 +67,6 @@ p {
   font-size: 20px;
   line-height: 2;
   margin-top: 25px;
-
 }
 
 .name {

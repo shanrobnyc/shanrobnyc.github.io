@@ -1,19 +1,21 @@
 
 #arrow span {
-    display: inline-block;
-    position: relative;
-    top: -18px;
-    -moz-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -o-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-    -webkit-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
-    transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+  display: inline-block;
+  position: relative;
+  top: -18px;
+  -moz-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -o-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+  -webkit-transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
+  transition: all 0.7s cubic-bezier(0.7, 0.01, 0.3, 1);
 }
+
 #arrow:hover {
-    background: #000;
+  background: #000;
 }
+
 #arrow:hover span {
-    top: 0;
-    color: #FFF;
+  top: 0;
+  color: #FFF;
 }
 
 .backgroundtitle {
@@ -57,7 +59,6 @@
   height: 100%;
 }
 
-
 #csecondPhoto {
   background: url("../images/sudanNYDC456667CA.jpg") center center no-repeat;
 }
@@ -65,7 +66,6 @@
 #cthirdPhoto {
   background: url("../images/sudanNYDC4568CA.jpg") center center no-repeat;
 }
-
 
 #cfourthPhoto {
   background: url("../images/sudanNYDC457273CA.jpg") center center no-repeat;
@@ -79,7 +79,6 @@
   background: url("../images/sudanNYDC4569CA.jpg") center center no-repeat;
 }
 
-
 #hfirstPhoto {
   background: url("../images/LebanonNYDC454849CA.jpg") center center no-repeat;
 }
@@ -91,7 +90,6 @@
 #hthirdPhoto {
   background: url("../images/LebanonNYDC455051CA.jpg") center center no-repeat;
 }
-
 
 #hfourthPhoto {
   background: url("../images/LebanonNYDC4552CA.jpg") center center no-repeat;
@@ -139,7 +137,6 @@
   height: 100%;
   width: 100%;
 }
-
 
 p {
   color: white;
@@ -263,7 +260,6 @@ h4 {
   color: white;
 }
 
-
 .navtext {
   color: white;
   width: 50%;
@@ -273,7 +269,6 @@ h4 {
   font-family: 'Roboto Condensed', sans-serif;
   padding-top: 3%;
 }
-
 
 .storylinks:link {
   font-family: 'Roboto Condensed', sans-serif;
@@ -285,7 +280,6 @@ h4 {
   font-size: 20px;
   color: #c3BDBD;
 }
-
 
 /* visited link */
 .storylinks:visited {
@@ -332,17 +326,14 @@ h4 {
   font-size: 22px;
 }
 
-
 .bottomrule {
   padding-bottom: 5%;
 }
-
 
 .ad {
     margin: auto;
     width: 80%;
 }
-
 
 @media only screen and (max-width: 600px){
 p {
@@ -413,7 +404,6 @@ h2, h3 {
   width: 80%;
   margin: 0 auto;
   padding-left: 0%;
-
   }
 }
 
@@ -427,7 +417,6 @@ h2, h3 {
   line-height: 1;
   }
 }
-
 
 @media only screen and (max-width: 600px){
 .navtext {
