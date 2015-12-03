@@ -4,7 +4,7 @@
  * https://github.com/alvarotrigo/pagePiling.js
  * MIT licensed
  *
- * Copyright (C) 2013 alvarotrigo.com - A project by Alvaro Trigo
+ * Copyright (C) 2013 alvarotrigo.com - more hereA project by Alvaro Trigo
  */
 (function ($, document, window, undefined) {
     'use strict';
