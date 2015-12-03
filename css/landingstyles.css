@@ -4,30 +4,38 @@ background: black;
 
 
 
-h1, h2, h3, h4, h5, h6 {
-  color: white;
+h1, h2, h3, h4, h5, h6, p {
+  color: #c3BDBD;
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
+
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 90px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  letter-spacing: -0.03em;
 }
 
 
 h2 {
-  font-size: 16px;
+  font-size: 24px;
   line-height: 2;
+  font-weight: 300;
+  margin-bottom: 40px;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 42px;
+  margin-bottom: 10px;
+  font-weight: 300;
 }
 
-h4 {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 2;
+h4, h5 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.4;
 }
 
 a {
@@ -36,12 +44,20 @@ a {
 }
 
 p {
-color: white;
+  font-size: 20px;
+  line-height: 2;
+  margin-top: 25px;
+
+}
+
+.name {
+  font-weight: 500;
 }
 
 img {
   float: left;
   margin-right: 25px;
+  margin-bottom: 10px
 }
 
 .textblock {
@@ -54,7 +70,9 @@ width: 60%;
 display: inline-block;
 float: clear;
 margin-bottom: 50px;
-width: 100%;
+width: 100%; 
+border-top: 1px solid white;
+padding-top: 50px;
 
 }
 
@@ -65,4 +83,24 @@ width: 100%;
 
 .hover {
   color: red;
+}
+
+
+@media only screen and (max-width: 600px){
+h2 {
+  font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 600px){
+.textblock {
+  width: 80%;
+  }
 }

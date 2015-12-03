@@ -117,24 +117,17 @@
   background: url("../images/UkraineNYDC4561CA.jpg") center center no-repeat;
 }
 
-
-
-
-
-
-
 #ofourthPhoto {
-  background: url("../images/Ukraine_web01.tif") center center no-repeat;
+  background: url("../images/Ukraine_web01.jpg") center center no-repeat;
 }
 
 #osixthPhoto {
   background: url("../images/Ukraine1UKRAINE_5387.jpg") center center no-repeat;
 }
 
-#ofifthoPhoto {
-  background: url("../images/Ukraine_web02.tif") center center no-repeat;
+#ofifthPhoto {
+  background: url("../images/Ukraine_web01.jpg") center center no-repeat;
 }
-
 
 #oseventhPhoto {
   background: url("../images/Ukraine1UKRAINE_0007.jpg") center center no-repeat;
@@ -150,14 +143,13 @@
 
 p {
   color: white;
-  font-size: 24px;
-  width: 50%;
+  font-size: 26px;
+  width: 65%;
   line-height: 2.5;
   padding-top: 50px;
   margin: 0 auto;
-  padding: 0;
   font-family: 'Roboto Condensed', sans-serif;
-
+  font-weight: 300;
 }
 
 .firstGraph {
@@ -173,19 +165,24 @@ p {
 #titleTypeHana {
   padding-top: 15%;
   padding-left: 5%;
+}
 
+#titleTypeOleg {
+  padding-top: 30%;
+  padding-left: 5%;
 }
 
 h1, h2, h3, h4 {
   color: white;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 500;
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 75px;
+  letter-spacing: -0.03em;
   margin-bottom: .5%;
-  font-weight: 500;
+  font-weight: 400;
+  margin-bottom: 10px;
 }
 
 
@@ -199,19 +196,20 @@ h3 {
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 22px;
+  letter-spacing: 0.03em;
   font-weight: 500;
   width: 20%;
   margin-top: 5%;
   margin-left: 10%;
+  padding-bottom: 10%;
   line-height: 2;
 }
 
 .blackTypeRight {
   float: right;
-  font-size: 18px;
   font-weight: 500;
-  width: 25%;
+  width: 35%;
   margin-right: 10%;
   margin-left: 0;
   color: black;
@@ -219,7 +217,6 @@ h4 {
 
 .whiteTypeLeft {
   float: right;
-  font-size: 18px;
   font-weight: 500;
   width: 35%;
   margin-right: 10%;
@@ -228,7 +225,6 @@ h4 {
 
 .whiteHanaTypeLeft {
   float: left;
-  font-size: 18px;
   font-weight: 500;
   width: 35%;
   margin-right: 10%;
@@ -239,18 +235,16 @@ h4 {
 
 .whiteHanaTypeLeftBus {
   float: left;
-  font-size: 18px;
   font-weight: 500;
   width: 24%;
   margin-right: 10%;
   margin-left: 10%;
-  margin-top: 25em;
+  margin-top: 40%;
   color: white;
 }
 
 .blackTypeLeft {
   float: left;
-  font-size: 18px;
   font-weight: 500;
   width: 35%;
   margin-left: 6%;
@@ -260,7 +254,6 @@ h4 {
 
 .whiteTypeBottomLeft {
   float: left;
-  font-size: 18px;
   font-weight: 500;
   width: 35%;
   margin-right: 10%;
@@ -272,36 +265,82 @@ h4 {
 
 .navtext {
   color: white;
-  font-size: 20px;
   width: 50%;
-  padding-top: 80px;
   margin: 0 auto;
-  padding: 0;
   text-align: center;
-  margin-bottom: 10%;
-}
-
-.navh3 {
- line-height: .5;
-}
-
-a {
-  color: white;
+  padding-bottom: 3%;
   font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
-  margin-right: 1%;
-  margin-left: 1%;
+  padding-top: 3%;
+}
+
+
+.storylinks:link {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
+  margin-right: 3%;
+  margin-left: 3%;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #c3BDBD;
+}
+
+
+/* visited link */
+.storylinks:visited {
+  color: #c3BDBD;
+}
+
+/* mouse over link */
+.storylinks:hover {
+    color: red;
+}
+
+/* selected link */
+.storylinks:active {
+    color: red;
 }
 
 .navh1 {
  margin-bottom: 5%;
 }
 
+.navh2 {
+ font-size: 26px;
+ line-height: 1.8;
+ font-weight: 300;
+  color: #c3BDBD;
+  border-top: solid 1px #c3BDBD;
+  padding-top: 20px;
+}
+
+.linknavh1 {
+  font-weight: 400;
+  font-size: 70px;
+  margin-bottom: 10px;
+  margin-top: 60px;
+  letter-spacing: -0.03em;
+  color: #c3BDBD;
+  text-decoration: none;
+}
+
+.storylinks {
+  color: red;
+  font-weight: 600;
+  letter-spacing: 1.6;
+  font-size: 22px;
+}
+
+
+.bottomrule {
+  padding-bottom: 5%;
+}
+
+
 .ad {
     margin: auto;
     width: 80%;
 }
-
 
 
 @media only screen and (max-width: 600px){
@@ -396,4 +435,18 @@ h2, h3 {
   }
 }
 
+@media only screen and (max-width: 600px){
+.navh2 {
+  font-size: 20px;
+  line-height: 1.3;
+  }
+}
+
+@media only screen and (max-width: 600px){
+.storylinks {
+  width: 100%;
+  display: block;
+  margin-bottom: 5px;
+  }
+}
 
